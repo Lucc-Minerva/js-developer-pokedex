@@ -4,14 +4,18 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #d6e1f5;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.content h1 {
+    text-align: center;
 }
 
 @media screen and (min-width: 992px) {

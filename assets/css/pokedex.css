@@ -7,19 +7,19 @@
 }
 
 .normal {
-    background-color: #a6a877;
+    background-color: #d3d4b9;
 }
 
 .grass {
-    background-color: #77c850;
+    background-color: #88fd52;
 }
 
 .fire {
-    background-color: #ee7f30;
+    background-color: #fa832e;
 }
 
 .water {
-    background-color: #678fee;
+    background-color: #5789fc;
 }
 
 .electric {
@@ -86,11 +86,8 @@
     border-radius: 1rem;
 }
 
-.pokemon .number {
-    color: #000;
-    opacity: .3;
-    text-align: right;
-    font-size: .625rem;
+.pokemon a {
+    text-decoration: none;
 }
 
 .pokemon .name {
@@ -145,6 +142,44 @@
     border: none;
     border-radius: 1rem;
 }
+
+dialog {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+    background-color: rgba(216, 231, 255, 0.952);
+    border-color: rgba(216, 231, 255, 0.952);
+    
+}
+
+dialog p {
+    margin: 5px;
+}
+
+dialog li {
+    list-style-type: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+dialog img {
+    display: flex;
+}
+
+dialog button {
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.671);
+    background-color: rgba(255, 255, 255, 0.952);
+    border-color: rgba(255, 255, 255, 0.952);
+}
+
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+}
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
